@@ -1,0 +1,15 @@
+CRUD 자주 사용되는 메서드
+
+long count()
+Iterable<T> findAll()
+Optional<T> findById(Id id)
+void delete(T entity)
+void deleteAll()
+<S extends T> save(S entitity)
+List<S> saveAll(Iterable<S> entities>
+
+extends PagingAndSortingRepository<Car, Long> {
+}
+
+Iterable<T> findAll(Sort sort) 지정한 옵션으로 정렬된 모든 엔티티를 반환
+Page<T> findAll(Pageable pageable) 지정한 페이지 매김 옵션으로 모든 엔티티를 반환
