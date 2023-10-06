@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
-<!--			Heroku-->
+<!--			Heroku -->
 			<version>2.2.1</version>
 		</dependency>
 		<dependency>
